@@ -5,7 +5,7 @@ $connect = mysqli_connect("localhost","root","","batch-70");
 
 
 if($connect){
-    echo("success");
+    echo"success";
 }else{
 echo "error";
 }
