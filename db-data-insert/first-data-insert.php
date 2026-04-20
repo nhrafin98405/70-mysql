@@ -48,9 +48,7 @@ END -->
 
 <table> 
 
-<tr> 
-    <td>id</td>
-</tr>
+
 
 <?php 
 
