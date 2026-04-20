@@ -3,8 +3,6 @@
 $conn = mysqli_connect("localhost", "root", "", "batch-70");
 
 
-
-// Insert data
 if (isset($_POST['submit'])) {
     $name = $_POST['name'];
     $address = $_POST['address'];
@@ -13,6 +11,8 @@ if (isset($_POST['submit'])) {
 
     $conn->query("call nhr_info('$name','$address','$email','$contact')");
 }
+$manufac = $db->query("select * form manufacturer");
+while (list($mid, $_mname))
 
 ?>
 <!-- BEGIN
