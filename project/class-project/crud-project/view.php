@@ -70,13 +70,13 @@ if (isset($_GET['dle'])) {
                                 <td>
                                     <span class="btn btn-danger">
 
-                                <td>
+                                
                                     <a href="view.php?dle=<?php echo $row['id']; ?>"
                                         class="btn btn-danger text-white text-decoration-none"
                                         onclick="return confirm('Are you sure?')">
                                         Delete
                                     </a>
-                                </td>
+                                
                                 </span>
                                 </td>
                             </tr>
